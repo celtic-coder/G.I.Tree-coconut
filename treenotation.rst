@@ -10,6 +10,8 @@ Are there any practical examples of tree notations?
 
 Yes, the scroll is a domain specific language of tree notations to build and compile websites (https://github.com/breck7/scroll) while PLDB uses scroll to create websites and store its data in tree notation too (https://github.com/breck7/pldb)
 
+Other examples include https://github.com/breck7/slots, https://github.com/breck7/patch and https://github.com/breck7/swarm
+
 They are more than just practical examples of treenotations, they are deployed
 D solutions.
 
