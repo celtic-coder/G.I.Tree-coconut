@@ -27,6 +27,8 @@ Please scroll down the page  https://treenotation.org/ and look at https://githu
 Can you explain treenotation grammer in 5 minutes?
 Sure I can try.
 
-Each record is represented by a node. Each node has key word cell and value cell of certain or any time, at minimum
+Each record is represented by a node. Each node has a key and value pair. Each node has key word cell and value cell of certain or any time, at minimum
 
-Grammers tell you how value cell of a node is an extention of a particular node or it tells how the value cell can be composed of other key cell/value cell pairs (other sub nodes) instead of just value cell.
+Becuase this is a key and value databse with encahancements, we need grammers.Grammers tell you how value cell of a node is an extention of a particular node or it tells how the value cell can be composed of other key cell/value cell pairs (other sub nodes) instead of just value cell.
+
+Get that a value can je be a value cell or contain another node containing key and value pair, isnt that something ?
