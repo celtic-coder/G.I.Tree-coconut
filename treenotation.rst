@@ -31,4 +31,8 @@ Each record is represented by a node. Each node has a key and value pair. Each n
 
 Becuase this is a key and value databse with encahancements, we need grammers.Grammers tell you how value cell of a node is an extention of a particular node or it tells how the value cell can be composed of other key cell/value cell pairs (other sub nodes) instead of just value cell.
 
-Get that a value can je be a value cell or contain another node containing key and value pair, isnt that something ?
+Get that a value can be a value cell or contain another node containing key and value pair, isnt that something ?
+
+
+Does treenotation grammer support pointers in the value node cell ??
+To be found out, treenotation supports foreign key like concept.
