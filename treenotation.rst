@@ -36,3 +36,7 @@ Get that a value can be a value cell or contain another node containing key and 
 
 Does treenotation grammer support pointers in the value node cell ??
 To be found out, treenotation supports foreign key like concept.
+
+
+references:
+- https://github.com/breck7/pldb/issues/54
