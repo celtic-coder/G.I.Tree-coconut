@@ -1,5 +1,8 @@
 npm commands:
 
 npm run clean
+## Before first run of npm run githubs
+## run command cd code/crawlers/ && npm install . && cd -
+# mkdir code/crawlers/github.com/ignore/ && echo "{}" > code/crawlers/github.com/ignore/creds.json
 npm run githubs
 npm run format
