@@ -2,9 +2,9 @@ Keys like keys like semanticScholar, reference, website, Wikipedia, githubRepo,t
 
  relational keys like help in defining related entries: forkOf, subsetOf, supersetOf, related, influencedBy, successorOf, etc.
 
-writtenIn, compilesTo keys value should be the title of a project entry present in pldb.It seems to be a foreign key like entity.
+writtenIn, compilesTo keys value should be the title of a project entry present in pldb. but can we make a key that depends on keys like oldName, renamedTo instead of just title  keys value ??
 
-Can treenotation support relation or foreign keys that can depend on something other than title. If it depends on  key of another entrys key value pair its relational, otherwise if it depends on value of another entries key value  pair its foreign key.
+Can treenotation support relation or foreign keys that can depend on something other than title. If the value of a key points to another table entry it is relational. If the value of a key is itself the value of another table entryes key-value pairs value, its a foreign key. Foreign keys help in limiting errors or reduce the cost of making mass changes. it could also reduce the size of databases.
 
 TLDR: Lists are used to convert normal key- value pair to tagged search like feature. Lists Should have the ability to test if the database entries have valid values. 
 
@@ -19,7 +19,10 @@ tags as strings inlcude keys like lineCommentToken, printToken, and stringToken
 tag keys as binary can also inlcude keys like features subkeys like
  hasHereDocs ,  hasPrintDebugging ,  hasStrings ,   "Hello world"
 
-tag key as enumeration include key : type
+tag key as enumeration include key : type can this enum type be generated dyunamically ?? Can i get a list of enumerated tags used in curent database ??
+
+Can lists be used to define the values of foreign keys, if so how ??
+For example https://pldb.com/posts/originCountries11-3-2022.html can be used to create appropriate foreign keys.
 
 
 The notation should also describe which keys are required, which are optional.
