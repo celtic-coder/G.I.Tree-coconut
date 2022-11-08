@@ -4,3 +4,9 @@ It seems to be a foreign key like entity.
 Keys like keys like semanticScholar, reference, website, Wikipedia, githubRepo,twitter, ubuntuPackage help create more keys, value pairs or helps crawlers find more key, value pairs.
 
 tag like keys that help in search include related, compilesTo, influencedBy, etc.
+Search tags can also inlcude keys like features subkeys like
+ hasHereDocs ,  hasPrintDebugging ,  hasStrings ,   "Hello world"
+which are binary tags. 
+
+string tags inlcude keys like lineCommentToken, printToken, and stringToken
+
