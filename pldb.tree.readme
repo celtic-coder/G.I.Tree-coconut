@@ -10,3 +10,7 @@ which are binary tags.
 
 string tags inlcude keys like lineCommentToken, printToken, and stringToken
 
+These are used to create pages like https://pldb.com/lists/lists.html and https://pldb.com/lists/features.html 
+
+Each of these lists has a landing page: which provide all results to the tagged search. Each tag can have its own results like https://pldb.com/languages/namespace-feature.html or it cannot like in https://pldb.com/lists/originCommunities.html
+
