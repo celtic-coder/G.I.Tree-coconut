@@ -1,20 +1,31 @@
-writtenIn keys value should be the title of a project entry present in pldb.
-It seems to be a foreign key like entity.
+Keys like keys like semanticScholar, reference, website, Wikipedia, githubRepo,twitter, ubuntuPackage help create more keys, value pairs or helps crawlers find more key, value pairs. They can be called meta keys.
 
-Keys like keys like semanticScholar, reference, website, Wikipedia, githubRepo,twitter, ubuntuPackage help create more keys, value pairs or helps crawlers find more key, value pairs.
+ relational keys like help in defining related entries: forkOf, subsetOf, supersetOf, related, influencedBy, successorOf, etc.
 
-tag like keys that help in search include related, compilesTo, influencedBy, etc.
-Search tags can also inlcude keys like features subkeys like
- hasHereDocs ,  hasPrintDebugging ,  hasStrings ,   "Hello world"
-which are binary tags. 
+writtenIn, compilesTo keys value should be the title of a project entry present in pldb.It seems to be a foreign key like entity.
 
-string tags inlcude keys like lineCommentToken, printToken, and stringToken
+Can treenotation support relation or foreign keys that can depend on something other than title. If it depends on  key of another entrys key value pair its relational, otherwise if it depends on value of another entries key value  pair its foreign key.
+
+TLDR: Lists are used to convert normal key- value pair to tagged search like feature. Lists Should have the ability to test if the database entries have valid values. 
+
 
 These are used to create pages like https://pldb.com/lists/lists.html and https://pldb.com/lists/features.html 
 
 Each of these lists has a landing page: which provide all results to the tagged search. Each tag can have its own results like https://pldb.com/languages/namespace-feature.html or it cannot like in https://pldb.com/lists/originCommunities.html
 
-TLDR: Lists are used to convert normal key- value pair to tagged search like feature. Lists Should have the ability to test if the database entries have valid values. Currently in pldb lists are generated during npm build command
+tag keys are like foreign keys or relational keys but their value is not dependent on keys or values of other pairs.
+tags as strings inlcude keys like lineCommentToken, printToken, and stringToken
+
+tag keys as binary can also inlcude keys like features subkeys like
+ hasHereDocs ,  hasPrintDebugging ,  hasStrings ,   "Hello world"
+
+tag key as enumeration include key : type
+
+
+The notation should also describe which keys are required, which are optional.
+
+
+Currently in pldb lists are generated during npm build command
 ==================
 buildSingleGrammarFile
 buildBuildLogImportsCommand
